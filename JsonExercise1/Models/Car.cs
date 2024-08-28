@@ -18,12 +18,12 @@ namespace JsonExercise1.Models
             
         }
 
-        public Car(string Brand, string Model, string Color, int mileage)
+        public Car(string Brand, string Model, string Color, int Mileage)
         {
             this.Brand = Brand;
             this.Model = Model;
             this.Color = Color;
-            this.Mileage = mileage;
+            this.Mileage = Mileage;
         }
 
         public override string ToString()
